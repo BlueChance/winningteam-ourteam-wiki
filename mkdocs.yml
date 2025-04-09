@@ -1,0 +1,16 @@
+
+site_name: 편한 위키
+site_url: https://winningteamourteamwiki.vercel.app
+theme:
+  name: material
+  palette:
+    primary: green
+  font:
+    text: Noto Sans KR
+    code: Fira Code
+nav:
+  - 개요: index.md
+  - 선수:
+      - 김찬수: 선수/김찬수.md
+plugins:
+  - search
